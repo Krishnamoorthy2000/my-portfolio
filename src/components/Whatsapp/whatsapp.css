@@ -1,0 +1,17 @@
+.whatsapp {
+       position: fixed;
+       bottom: 20px;
+       right: 20px;
+       background-color: green;
+       color: white;
+       border: none;
+       border-radius: 50%;
+       padding: 15px;
+       cursor: pointer;
+       z-index: 999; /* Ensures that the button is always on top */
+     }
+     
+     .icon-whatsapp {
+       font-size: 50px;
+     }
+     

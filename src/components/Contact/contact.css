@@ -1,0 +1,43 @@
+.contact {
+  background-color: darkgray;
+  height: 100vh;
+  background-image: url(../../images/unnamed.jpg);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  color: aqua;
+  font-weight: bolder;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  font-weight: bolder;
+  padding: 10px;
+  color: rgb(255, 187, 0);
+}
+
+.form-control:focus {
+  border-color: #7f7f7f;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #cc4b00;
+}
+
+.sendbutton {
+  color: rgb(236, 243, 229);
+  background-color: chartreuse;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 100%;
+  font-weight: bolder;
+}

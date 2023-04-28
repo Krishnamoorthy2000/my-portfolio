@@ -1,0 +1,44 @@
+.projects{
+       background-image: url("../../images/giphy.gif");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+.card{
+       padding: 10px;
+       margin: 40px;
+       width: 350px;
+       z-index: 1;
+       border-width: 5px;
+       border-color: rgba(250, 38, 66, 0.774);
+       border-radius: 30px;
+
+}
+.card-img-top{
+padding: 10px;
+border-radius: 30px;
+}
+.card-body{
+
+}
+.card-title{
+       text-align: center;
+}
+.card-text{
+
+}
+.btn{
+       background-color: aqua;
+       color:black;
+       /* margin: 2px; */
+}
+.btn:hover{
+      background-color: darksalmon;
+}
+h3{
+       text-align: center;
+       height: 12px;
+       font-style: italic;
+
+}

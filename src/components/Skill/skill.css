@@ -1,0 +1,194 @@
+.Skill {
+  padding: 50px;
+  background-image: url("../../images/OIP.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-style: italic;
+
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 10px 0 !important;
+}
+.col {
+  padding: 5px 0 5px 0 !important;
+}
+
+.skills-icon {
+  background-color: #ffffff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+}
+.icons {
+  height: 30px;
+  width: 30px;
+}
+
+.skills-name {
+  font-weight: bold;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.html-icon {
+  color: #f06529;
+}
+
+.css-icon {
+  color: #2965f1;
+}
+
+.js-icon {
+  color: #f0db4f;
+}
+
+.bootstrap-icon {
+  color: #553c7b;
+}
+
+.react-icon {
+  color: #61dafb;
+}
+
+.mysql-icon {
+  color: #00758f;
+}
+
+.mongodb-icon {
+  color: #4db33d;
+}
+
+.express-icon {
+  color: #000000;
+}
+
+.node-icon {
+  color: #3c873a;
+}
+
+.github-icon {
+  color: #181717;
+}
+
+.netlify-icon {
+  color: #00c7b7;
+}
+
+.render-icon {
+  color: #f24c27;
+}
+
+.progress {
+  margin: 20px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* mobile devices and smaller screens */
+
+  .progress {
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .skills-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+  }
+  .icons {
+    height: 15px;
+    width: 15px;
+  }
+  
+  .skills-name {
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /*  tablets and medium-sized screens */
+  
+  .progress {
+    height: 18px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .skills-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+  }
+  .icons {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .skills-name {
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* desktop screens and larger devices */
+  
+  .progress {
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .skills-icon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+  }
+  .icons {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .skills-name {
+    font-weight: bold;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 28px;
+  }
+}
