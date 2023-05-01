@@ -3,7 +3,7 @@
 .about {
        background-color: #f8f8f8;
        padding: 50px;
-       background-image: linear-gradient(red, yellow, blue);
+       background-image: linear-gradient(rgba(255, 0, 0, 0.651), rgba(255, 255, 0, 0.699), rgba(0, 0, 255, 0.63));
       }
      
      .aboutcontainer {
