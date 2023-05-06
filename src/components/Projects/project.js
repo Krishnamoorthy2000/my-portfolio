@@ -2,6 +2,7 @@ import React from "react";
 import "./project.css";
 import { Card, Button, Row, Col } from "react-bootstrap";
 import natureImage from "../../images/nature.jpg";
+import portfolio from '../../images/portfolio.jpeg'
 
 export default function ProjectContent() {
   return (
@@ -12,22 +13,21 @@ export default function ProjectContent() {
     <div className="d-flex flex-row flex-wrap justify-content-center ">
 
       <Card >
-        <Card.Img variant="top" src={natureImage} />
+        <Card.Img variant="top" src={portfolio} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title>My Portfolio</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          This project showcases my skills and experience as a developer, with a focus on creating an aesthetically pleasing and functional portfolio website.
           </Card.Text>
           <Row>
             <Col>
-              <Button >Live Demo</Button>
+              <Button ><a  href="https://krishnamoorthy-portfolio.netlify.app/" rel="noopener noreferrer" target="_blank">Live Demo</a></Button>
             </Col>
             <Col>
-              <Button >Front End</Button>
+              <Button ><a  href="https://github.com/Krishnamoorthy2000/my-portfolio" rel="noopener noreferrer" target="_blank">Front End</a></Button>
             </Col>
             <Col>
-              <Button >Back End</Button>
+              <Button ><a  href="https://github.com/Krishnamoorthy2000/backend-portfolio" rel="noopener noreferrer" target="_blank">Back End</a></Button>
             </Col>
           </Row>
         </Card.Body>

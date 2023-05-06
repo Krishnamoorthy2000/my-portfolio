@@ -5,16 +5,7 @@ import { ImHome, ImUserTie, ImBubbles, ImQuill, ImBooks } from "react-icons/im";
 import "./navbar.css"; // import CSS file here
 
 export default function NavbarContent() {
-  function downloadResume() {
-    var resumeUrl = "../../krishna_moorthy_resume.pdf"; // Replace with the URL of your resume file
-    var fileName = "krishna moorthy resume.pdf"; // Replace with the file name you want to give your resume file
-    var link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = fileName;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  }
+
 
   return (
     <Navbar
@@ -55,9 +46,9 @@ export default function NavbarContent() {
             <Button className="resume">
               <a
                 href="https://drive.google.com/file/d/10jVn0t_fLBLx3XdDCvgbCqmwdM9SrS6x/view?usp=sharing"
-                target="_blank"
-              >
-                Resume
+                rel="noopener noreferrer" target="_blank"
+                >
+                  Resume
               </a>
             </Button>
           </Nav>

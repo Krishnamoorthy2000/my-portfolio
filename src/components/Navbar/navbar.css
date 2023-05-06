@@ -20,7 +20,7 @@
 }
 
 .nav-link {
-  color: #381d1d;
+  color: #000000;
   margin: 10px;
   font-style: italic;
   font-variant: small-caps;
@@ -29,7 +29,7 @@
 
 
 .nav-link:hover {
-  color: #2905f8;
+  color: #fffb00;
 }
 
 .navbar-icons {
@@ -52,6 +52,9 @@
   .navbar-icons {
     font-size: 16px;
   }
+  .resume{
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -71,17 +74,20 @@
 }
 .resume {
   display: inline-block;
-  background-color: #0077b5;
   color: #fff;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   height: 45px;
   border-radius: 5px;
   margin-top: 5px;
-  text-decoration: none;
+  text-transform: none;
   cursor: pointer;
 }
-
-.resume:hover {
-  background-color: #005d8f;
+a{
+  text-decoration: none;
+  color: #041d24;
 }
+a:hover{
+  color:azure
+}
+

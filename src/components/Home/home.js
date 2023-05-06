@@ -8,20 +8,20 @@ import "./home.css";
 
 export default function HomeContent () {
   function openGitHub() {
-    var username = "Krishnamoorthy2000"; // Replace with your GitHub username
+    var username = "Krishnamoorthy2000"; 
     var url = "https://github.com/" + username;
     window.open(url, '_blank');
   }
   function openLinkedIn() {
-    var username = "krishna-moorthy-544937271"; // Replace with your LinkedIn username
+    var username = "krishna-moorthy-544937271"; 
     var url = "https://www.linkedin.com/in/" + username;
     window.open(url, '_blank');
   }
 
   function composeEmail() {
-    var recipient = "krishnamalathi2000@gmail.com"; // Replace with your email address
-    var subject = "Hello!"; // Replace with your desired subject
-    var body = "Hi, how are you?"; // Replace with your desired message
+    var recipient = "krishnamalathi2000@gmail.com"; 
+    var subject = "Hello!"; 
+    var body = "Hi, how are you?"; 
     var url = "https://mail.google.com/mail/?view=cm&to=" + recipient + "&su=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
     window.open(url);
   }

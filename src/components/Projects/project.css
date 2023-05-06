@@ -1,5 +1,5 @@
 .projects{
-       background-image: url("../../images/giphy.gif");
+       background-image: url("../../images/nature.webp");
     background-position: center;
     background-size: cover;
 
@@ -29,16 +29,19 @@ border-radius: 30px;
 
 }
 .btn{
-       background-color: aqua;
+       background-color: rgb(51, 255, 0);
        color:black;
-       /* margin: 2px; */
+       font-size:15px;
+       font-weight: bold;
 }
 .btn:hover{
-      background-color: darksalmon;
+      background-color: rgba(9, 135, 194, 0.651);
 }
 h3{
        text-align: center;
        height: 12px;
        font-style: italic;
+       font-weight: 1000;
+       padding-top: 40px;
 
 }
