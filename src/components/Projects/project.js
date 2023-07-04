@@ -62,7 +62,7 @@ export default function ProjectContent() {
           <Card.Body>
             <Card.Title>social media</Card.Title>
             <Card.Text>
-            The social media management tool is a simple user interface project that includes features for user login, signup, and pricing options.            </Card.Text>
+            The social media management tool is a simple user interface project that includes features for user login, signup, and it is project of buffer clone.            </Card.Text>
             <Row>
               <Col>
                 <Button> <a
