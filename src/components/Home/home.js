@@ -36,7 +36,7 @@ export default function HomeContent () {
               HELLO <span className="wave">👋 </span>  I'm KRISHNA MOORTHY              
             </h1>
             
-            <h4>Thank you for visiting my portfolio! If you'd like to get in touch, please click on the Mail or WhatsApp icon and send me a message. I'll get back to you as soon as possible. Looking forward to hearing from you!</h4>
+            <div className="homeContent">Thank you for visiting my portfolio! If you'd like to get in touch, please click on the Mail or WhatsApp icon and send me a message. I'll get back to you as soon as possible. Looking forward to hearing from you!</div>
             <Text />
             <div className="social-media-buttons">
               <button className="social-media-button github" onClick={openGitHub}>

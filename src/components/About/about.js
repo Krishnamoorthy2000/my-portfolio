@@ -8,7 +8,7 @@ export default function AboutContent() {
       <Container fluid="true" className="aboutcontainer">
         <Row>
           <Col>
-          <h3>About Myself</h3>
+          <div className="aboutHeading">About Myself</div>
             <p>
               Hello! My name is Krishna Moorthy, and I'm a Full Stack Web
               Development . I may not have any professional experience

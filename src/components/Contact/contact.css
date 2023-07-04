@@ -1,16 +1,21 @@
 /* Container for the contact form */
-    #contactontent{
-    
-  background: linear-gradient(89.8deg, rgb(204, 156, 223) 0.3%, rgb(155, 219, 245) 20.4%, rgb(245, 183, 208) 40.2%, rgb(250, 186, 98) 62.9%, rgb(234, 238, 240) 81.9%, rgb(250, 245, 171) 99.2%);
+#contactontent {
+  background: linear-gradient(
+    89.8deg,
+    rgb(204, 156, 223) 0.3%,
+    rgb(155, 219, 245) 20.4%,
+    rgb(245, 183, 208) 40.2%,
+    rgb(250, 186, 98) 62.9%,
+    rgb(234, 238, 240) 81.9%,
+    rgb(250, 245, 171) 99.2%
+  );
   height: 100vh;
   width: 100%;
-
-    }
-
+}
 
 .contact-container {
   max-width: 500px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 /* Style for the form heading */
@@ -85,17 +90,19 @@
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
-
+  #contactontent{
+    padding-left: 20px;
+  }
   .contact-label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    font-weight: 300;
   }
-  
+
   /* Style for the input fields */
   .contact-field {
     display: block;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 15px;
@@ -103,20 +110,61 @@
   }
   .contact-submit {
     display: block;
-    width: 80%;
+    width: 90%;
     padding: 10px;
     background-color: #3498db;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
   }
   .contact-heading {
-    font-size:24px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-style: italic;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  
+
+  #contactontent{
+    padding-left: 20px;
+  }
+  .contact-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Style for the input fields */
+  .contact-field {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }
+  .contact-submit {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .contact-heading {
+    font-size: 20px;
     margin-bottom: 20px;
     padding-top: 30px;
     text-align: center;
     font-style: italic;
   }
 
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 }

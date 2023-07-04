@@ -15,3 +15,57 @@
        font-size: 50px;
      }
      
+     @media screen and (min-width: 320px) and (max-width: 767px) {
+      .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 999; /* Ensures that the button is always on top */
+      }
+      
+      .icon-whatsapp {
+        font-size: 30px;
+      }
+     }
+     @media screen and (min-width: 768px) and (max-width: 991px) {
+      .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+        cursor: pointer;
+        z-index: 999; /* Ensures that the button is always on top */
+      }
+      
+      .icon-whatsapp {
+        font-size: 50px;
+      }
+     }
+     @media screen and (min-width: 992px) and (max-width: 1199px) {
+      .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 15px;
+        cursor: pointer;
+        z-index: 999; /* Ensures that the button is always on top */
+      }
+      
+      .icon-whatsapp {
+        font-size: 50px;
+      }
+     }

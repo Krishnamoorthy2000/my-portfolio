@@ -6,6 +6,8 @@
   background-repeat: no-repeat;
   color: #ffffff;
   font-style: italic;
+  width: 100vw;
+  height: 100%;
 
 }
 .row {
@@ -87,18 +89,30 @@
   color: #f24c27;
 }
 
-.progress {
-  margin: 20px;
-}
+
 
 .progress {
   height: 20px;
   background-color: #ddd;
   border-radius: 20px;
   overflow: hidden;
+  margin: 20px;
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .Skill {
+    padding: 20px;
+    background-image: url("../../images/OIP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-style: italic;
+    width: 100vw;
+  height: 100%;
+  
+  }
   /* mobile devices and smaller screens */
 
   .progress {
@@ -106,6 +120,8 @@
     background-color: #ddd;
     border-radius: 20px;
     overflow: hidden;
+    margin: 20px;
+
   }
   .skills-icon {
     background-color: #ffffff;

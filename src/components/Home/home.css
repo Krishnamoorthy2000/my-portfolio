@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .homepagebackground {
   background: linear-gradient(to bottom, #416dd4, #242830);
@@ -18,12 +17,12 @@
   margin-bottom: 2rem;
   color: aqua;
 }
-h4 {
+.homeContent {
   color: aliceblue;
   text-indent: 70px;
   text-align: justify;
-  font-family: 'Pacifico', cursive;
-    word-spacing: 10px;
+  font-family: "Pacifico", cursive;
+  word-spacing: 10px;
   letter-spacing: 2px;
   padding: 10px 0 10px 0;
   font-size: 30px;
@@ -109,23 +108,20 @@ h4 {
   font-size: 2rem;
 }
 
-
-
 .typewriter {
   color: #29f56d;
   font-size: 50px;
   font-weight: bolder;
   text-shadow: 2px 2px 4px rgba(71, 67, 67, 0.5);
-  /* font-family: 'Pacifico', cursive; */
 }
 
 .imagedeveloper {
   background-image: url("../../images/IMG20220814121444.jpg");
-  background-size: 350px;
+  background-size: 380px;
   background-position: center;
   background-repeat: no-repeat;
   width: 400px;
-  height: 400px;
+  height: 410px;
   border-radius: 50%;
   background-color: rgb(216, 152, 33);
   margin: 30px 100px 0 100px;
@@ -133,41 +129,106 @@ h4 {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   /* mobile devices and smaller screens */
+
+  .homepagebackground {
+    background: linear-gradient(to bottom, #416dd4, #242830);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
   .imagedeveloper {
     background-image: url("../../images/IMG20220814121444.jpg");
-    background-size: 350px;
-  background-position: center;
-  background-repeat: no-repeat;
-    width: 400px;
-    height:350px;
-    border-radius: 50%;
+    background-size: 255px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 300px;
+    border-radius: 50% ;
     background-color: rgb(216, 152, 33);
-    margin: 30px 50px 30px 50px;
+    margin: 30px 10px 30px 10px;
   }
-  .homepagebackground{
+  .homepagebackground {
     height: 100%;
     width: 100vw;
   }
+
+  .homeContent {
+    color: aliceblue;
+    text-indent: 70px;
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    padding: 3px 0 3px 0;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .typewriter {
+    color: #29f56d;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(71, 67, 67, 0.5);
+  }
+  .headtext {
+    font-weight:200;
+    margin-bottom: 2rem;
+    color: aqua;
+  }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /*  tablets and medium-sized screens */
- 
+
+  .homepagebackground {
+    background: linear-gradient(to bottom, #416dd4, #242830);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
   .imagedeveloper {
     background-image: url("../../images/IMG20220814121444.jpg");
     background-size: 350px;
     background-position: center;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 350px;
     height: 400px;
     border-radius: 50%;
-  background-color: rgb(216, 152, 33);
+    background-color: rgb(216, 152, 33);
     margin: 30px 80px 30px 80px;
   }
-  .homepagebackground{
+  .homepagebackground {
     height: 100%;
     width: 100vw;
   }
+
+  .homeContent {
+    color: aliceblue;
+    text-indent: 70px;
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    word-spacing: 10px;
+    letter-spacing: 1.5px;
+    padding: 15px 0 15px 0;
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .typewriter {
+    color: #29f56d;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(71, 67, 67, 0.5);
+  }
+  .headtext {
+    font-weight:250;
+    margin-bottom: 2rem;
+    color: aqua;
+  }
+  
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -175,14 +236,37 @@ h4 {
 
   .imagedeveloper {
     background-image: url("../../images/IMG20220814121444.jpg");
-    background-size: 350px;
+    background-size: 450px;
     background-position: center;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 500px;
     border-radius: 50%;
-  background-color: rgb(216, 152, 33);
-    margin: 30px 100px 0 100px;
+    background-color: rgb(216, 152, 33);
+    margin: 30px 50px 0 50px;
+  }
+
+  .homeContent {
+    color: aliceblue;
+    text-indent: 70px;
+    text-align: justify;
+    font-family: "Pacifico", cursive;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    padding: 10px 0 10px 0;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .typewriter {
+    color: #29f56d;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(71, 67, 67, 0.5);
+  }
+  .headtext {
+    font-weight:200;
+    margin-bottom: 2rem;
+    color: aqua;
   }
   
 }
