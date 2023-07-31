@@ -94,7 +94,7 @@ export default function ProjectContent() {
             </Row>
           </Card.Body>
         </Card>
-        <Card>
+        {/* <Card>
           <Card.Img variant="top" src={natureImage} />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -156,7 +156,7 @@ export default function ProjectContent() {
               </Col>
             </Row>
           </Card.Body>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );

@@ -45,7 +45,7 @@ export default function NavbarContent() {
             </Nav.Link>
             <Button className="resume">
               <a
-                href="https://drive.google.com/file/d/10jVn0t_fLBLx3XdDCvgbCqmwdM9SrS6x/view?usp=sharing"
+                href="https://drive.google.com/file/d/12g1r2jekeqHERr22UU-Z7yao4MygVA3t/view?usp=sharing"
                 rel="noopener noreferrer" target="_blank"
                 >
                   Resume
